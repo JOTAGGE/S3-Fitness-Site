@@ -1126,6 +1126,47 @@ button { font: inherit; cursor: pointer; }
   margin: 0 0 16px;
 }
 
+.demo-popup-deadline-box {
+  background: rgba(255, 90, 30, 0.12);
+  border: 1px solid rgba(255, 90, 30, 0.35);
+  border-left: 4px solid var(--s3-orange);
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin: 0 0 16px;
+  box-shadow: 0 4px 20px rgba(255, 90, 30, 0.08);
+}
+
+.demo-deadline-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.demo-deadline-icon {
+  color: var(--s3-orange);
+}
+
+.demo-deadline-tag {
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--s3-orange);
+}
+
+.demo-deadline-text {
+  font-size: 13.5px;
+  line-height: 1.55;
+  color: #f1f0ea;
+  margin: 0;
+}
+
+.demo-deadline-text strong {
+  color: #ffffff;
+  font-weight: 700;
+}
+
 .demo-popup-warning {
   display: flex;
   align-items: flex-start;

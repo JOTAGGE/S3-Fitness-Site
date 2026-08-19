@@ -81,17 +81,20 @@ export function DemoPopup() {
               ESTE É UM <span className="text-yellow">SITE DEMO</span>
             </h2>
 
-            {/* Subtitle / Notice */}
-            <p className="demo-popup-warning">
-              <AlertTriangle size={17} className="demo-warning-icon" />
-              <span>
-                <strong>Atenção:</strong> No dia seguinte você <strong>não terá mais acesso</strong> a este link de demonstração.
-              </span>
-            </p>
+            {/* Prazo Limite / Mensagem Destacada */}
+            <div className="demo-popup-deadline-box">
+              <div className="demo-deadline-header">
+                <Clock size={16} className="demo-deadline-icon" />
+                <span className="demo-deadline-tag">PRAZO LIMITE • 1 SEMANA</span>
+              </div>
+              <p className="demo-deadline-text">
+                Você tem <strong>1 semana</strong> para dar uma resposta. Caso contrário, os dados serão retirados e este modelo de site ficará <strong>livre e disponível para o próximo cliente</strong>.
+              </p>
+            </div>
 
             <p className="demo-popup-description">
-              Aproveite para dar uma boa olhada em toda a estrutura, seções, modalidades e design.
-              Caso queira adquirir este site pronto ou encomendar um projeto exclusivo para o seu negócio,
+              Aproveite para avaliar toda a estrutura, seções, modalidades e design.
+              Caso queira garantir este site ou solicitar ajustes exclusivos para o seu negócio,
               entre em contato pelos canais oficiais:
             </p>
 
