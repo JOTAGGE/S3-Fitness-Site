@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import { DemoPopup } from "./components/DemoPopup";
 
 function NotFound() {
   return (
@@ -15,10 +16,13 @@ function NotFound() {
 
 export default function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/s3-fitness" element={<Home />} />
-      <Route path="*" element={<NotFound />} />
-    </Routes>
+    <>
+      <DemoPopup />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/s3-fitness" element={<Home />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </>
   );
 }
