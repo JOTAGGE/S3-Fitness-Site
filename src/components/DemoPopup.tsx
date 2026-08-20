@@ -88,7 +88,7 @@ export function DemoPopup() {
                 <span className="demo-deadline-tag">PRAZO LIMITE • 1 SEMANA</span>
               </div>
               <p className="demo-deadline-text">
-                Você tem <strong>1 semana</strong> para dar uma resposta. Caso contrário, os dados serão retirados e este modelo de site ficará <strong>livre e disponível para o próximo cliente</strong>.
+                Você tem <strong>1 semana</strong> para dar uma resposta. Caso contrário, os dados serão retirados e este modelo de site ficará <strong>livre e disponível para o próximo cliente. A vizualização do site será desativada no dia seguinte. Entre em contato para visualizar novamente do site expira em 1 dia, solicite uma nova quando ele sair do ar.</strong>.
               </p>
             </div>
 
